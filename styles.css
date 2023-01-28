@@ -4,7 +4,16 @@
     border-style: solid;
 }
 
-div {
+body {
+    margin: 0;
+}
+
+.section-1 {
     width: 100%;
-    height: 50px;
+    height: 100px;
+}
+
+.top {
+    width: 100%;
+    height: 10px;
 }
