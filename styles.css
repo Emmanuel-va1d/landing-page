@@ -1,24 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 div {
     outline: 1px;
     outline-color: black;
     outline-style: solid;
+    position: relative;
 }
 
 body {
     margin: 0;
 }
 
-.section-1 {
+/* Styles for first section */
+
+#section-1 {
     width: auto;
-    height: 220px;
+    height: 240px;
 }
 
 .header {
     width: auto;
-    height: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    position: relative;
+    left: 10%;
+}
+
+.header-logo > h1 {
+    font-size: 24px;
+    margin: auto 20px auto -5px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    position: relative;
+    right: 10%;
+}
+
+.header-links > a {
+    margin: 5px;
+    font-size: 18px;
+    color: #F9FAF8;
+    text-decoration: none;
 }
 
 .main {
     width: auto;
-    height: 190px;
+    height: 200px;
 }
