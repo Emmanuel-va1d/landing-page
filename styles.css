@@ -18,7 +18,7 @@ body {
 
 #section-1 {
     width: auto;
-    height: 270px;
+    height: 300px;
     background-color: #1F2937;
 }
 
@@ -31,8 +31,10 @@ body {
 }
 
 #section-1 .logo {
-    position: relative;
-    left: 15%;
+    width: auto;
+    position: fixed;
+    margin-left: 15%;
+    margin-right: 2rem;
 }
 
 #section-1 .logo h1 {
@@ -42,8 +44,9 @@ body {
 }
 
 #section-1 .links {
-    position: relative;
+    position: fixed;
     right: 15%;
+    margin-left: 40%;
 }
 
 #section-1 .links a {
@@ -55,5 +58,41 @@ body {
 
 #section-1 .main {
     width: auto;
-    height: 230px;
+    height: 260px;
+}
+
+#section-1 .info {
+    min-width: 20em;
+    width: 28%;
+    height: 30%;
+    margin-top: 2rem;
+    position: fixed;
+    margin-left: 15%;
+    position: fixed;
+    flex-direction: column;
+}
+
+#section-1 .info h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#section-1 .info p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 5px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 7.5px;
+    border: solid #3882F6;
+    margin: 5px 5px;
+    width: 85px;
+    height: 30px;
 }
