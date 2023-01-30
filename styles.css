@@ -5,7 +5,7 @@
 
 div {
     outline: 1px;
-    outline-color: black;
+    outline-color: orange;
     outline-style: solid;
     position: relative;
 }
@@ -18,10 +18,11 @@ body {
 
 #section-1 {
     width: auto;
-    height: 240px;
+    height: 270px;
+    background-color: #1F2937;
 }
 
-.header {
+#section-1 .header {
     width: auto;
     height: 40px;
     display: flex;
@@ -29,30 +30,30 @@ body {
     justify-content: space-between;
 }
 
-.header-logo {
+#section-1 .logo {
     position: relative;
-    left: 10%;
+    left: 15%;
 }
 
-.header-logo > h1 {
+#section-1 .logo h1 {
     font-size: 24px;
-    margin: auto 20px auto -5px;
+    margin: auto 5px auto 5px;
     color: #F9FAF8;
 }
 
-.header-links {
+#section-1 .links {
     position: relative;
-    right: 10%;
+    right: 15%;
 }
 
-.header-links > a {
+#section-1 .links a {
     margin: 5px;
     font-size: 18px;
     color: #F9FAF8;
     text-decoration: none;
 }
 
-.main {
+#section-1 .main {
     width: auto;
-    height: 200px;
+    height: 230px;
 }
