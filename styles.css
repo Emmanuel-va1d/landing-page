@@ -239,3 +239,12 @@ button {
     width: 110px;
     height: 40px;
 }
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
