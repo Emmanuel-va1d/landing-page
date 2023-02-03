@@ -209,12 +209,15 @@ button {
     width: 1100px;
     background-color: #3882F6;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #section-4 .left {
     margin-left: 125px;
     height: 150px;
-    width: 55%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -230,12 +233,19 @@ button {
     font-size: 20px;
 }
 
+#section-4 .right {
+    width: 150px;
+    height: 150px;
+    margin-right: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #section-4 button {
     border-width: 1px;
     border-color: #F9FAF8;
     position: absolute;
-    top: 50px;
-    left: 850px;
     width: 110px;
     height: 40px;
 }
