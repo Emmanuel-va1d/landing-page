@@ -146,7 +146,7 @@ button {
     width: 140px;
     border-radius: 10px;
     border-style: inset;
-    border-width: 2px;
+    border-width: 3px;
     border-color: #3882F6;
 }
 
@@ -161,6 +161,7 @@ button {
 #section-2 .info {
     height: 80px;
     width: 150px;
+    margin-top: 10px;
     text-align: center;
     color: #1F2937;
 }
