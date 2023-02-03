@@ -5,7 +5,7 @@
 }
 
 div {
-    outline: 0px;
+    outline: 1px;
     outline-color: orange;
     outline-style: solid;
     position: relative;
