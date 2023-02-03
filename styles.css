@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-div {
-    outline: 1px;
-    outline-color: orange;
-    outline-style: solid;
-    position: relative;
-}
-
 body {
     margin: 0;
     font-family: 'Muli', sans-serif;
