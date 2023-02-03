@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div {
@@ -13,6 +12,7 @@ div {
 
 body {
     margin: 0;
+    font-family: 'Muli', sans-serif;
 }
 
 button {
@@ -71,14 +71,18 @@ button {
 #section-1 .main {
     width: auto;
     height: 450px;
+    padding-left: 140px;
+    padding-right: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #section-1 .info {
-    min-width: 20em;
-    width: 31%;
-    height: 14rem;
-    margin: 110px 15%;
-    position: absolute;
+    min-width: 22rem;
+    width: 22rem;
+    height: 15rem;
+    display: flex;
     flex-direction: column;
 }
 
@@ -97,9 +101,6 @@ button {
 }
 
 #section-1 .img {
-    position: absolute;
-    right: 15%;
-    margin-top: 110px;
     width: 30rem;
     height: 14rem;
     background-color: gray;
@@ -184,6 +185,13 @@ button {
     margin-left: 20px;
     color: #1F2937;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 200;
     font-style: italic;
+}
+
+#section-3 p {
+    position: absolute;
+    font-size: 25px;
+    margin: 150px -275px 0 275px;
+    
 }
