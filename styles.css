@@ -30,7 +30,7 @@ button {
 
 #section-1 {
     width: auto;
-    height: 350px;
+    height: 490px;
     background-color: #1F2937;
 }
 
@@ -70,14 +70,14 @@ button {
 
 #section-1 .main {
     width: auto;
-    height: 310px;
+    height: 450px;
 }
 
 #section-1 .info {
     min-width: 20em;
     width: 31%;
     height: 14rem;
-    margin: 2rem 15%;
+    margin: 110px 15%;
     position: absolute;
     flex-direction: column;
 }
@@ -99,7 +99,7 @@ button {
 #section-1 .img {
     position: absolute;
     right: 15%;
-    margin-top: 2rem;
+    margin-top: 110px;
     width: 30rem;
     height: 14rem;
     background-color: gray;
@@ -145,9 +145,8 @@ button {
     height: 140px;
     width: 140px;
     border-radius: 10px;
-    border-style: inset;
     border-width: 3px;
-    border-color: #3882F6;
+    border: solid #3882F6;
 }
 
 #section-2 .bottom {
@@ -165,3 +164,6 @@ button {
     text-align: center;
     color: #1F2937;
 }
+
+/* Styles for section 3 */
+
