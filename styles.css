@@ -210,3 +210,32 @@ button {
     background-color: #3882F6;
     border-radius: 5px;
 }
+
+#section-4 .left {
+    margin-left: 125px;
+    height: 150px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-4 h1 {
+    color: #F9FAF8;
+    font-size: 25px;
+}
+
+#section-4 p {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+#section-4 button {
+    border-width: 1px;
+    border-color: #F9FAF8;
+    position: absolute;
+    top: 50px;
+    left: 850px;
+    width: 110px;
+    height: 40px;
+}
